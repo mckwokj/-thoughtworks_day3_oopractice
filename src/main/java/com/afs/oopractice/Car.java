@@ -1,15 +1,12 @@
 package com.afs.oopractice;
 
-public class Car {
-    private String name;
-    private double speed;
+public class Car extends Vehicle {
 
     public Car(String name, double speed) {
-        this.name = name;
-        this.speed = speed;
+        super(name, speed);
     }
 
     public void speedUp() {
-        System.out.println(name + ": speed up " + speed + " km/h");
+        System.out.println(getName() + ": speed up " + getSpeed() + " km/h");
     }
 }
