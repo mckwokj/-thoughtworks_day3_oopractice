@@ -16,8 +16,4 @@ public class Vehicle {
     public double getSpeed() {
         return speed;
     }
-
-    public void speedUp() {
-        System.out.println(name + ": speed up " + speed + " km/h");
-    }
 }
